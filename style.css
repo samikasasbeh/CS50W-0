@@ -79,5 +79,13 @@ input:focus{
     padding: 10px; 
     min-width: 40px; 
     color: rgb(161, 161, 161);
+    margin-top: 5px;
    
 } 
+.button{
+    border: none;
+    width: 175px;
+    color: black;
+    background-color: rgba(214, 212, 212, 0.411);
+    border-radius: 5px;
+}
