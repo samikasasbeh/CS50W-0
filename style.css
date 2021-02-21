@@ -11,12 +11,45 @@ body {
 
 .bar{
     display: flex;
+    outline: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto;
-    border: 1px solid gray;
-    width: 450px
+    margin-bottom: 40px ;
+    border: 1px solid #afafaf;
+    width: 550px;
+    height: 40px;
     
     
+    
+}
+.bar input{
+    border: none;
+    
+}
+.bar::placeholder{
+    margin-left: 5px;
+}
+.bar:hover {
+    box-shadow: 3px 3px rgba(131, 134, 134, 0.856);
+}
+
+.button{
+    padding: 5px ;
+    color: rgb(151, 151, 151);
+    margin-left: 10px ;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    color: black;
+    padding: 10px;
+    text-decoration: black;
 }
