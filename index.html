@@ -6,22 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="googleLogo.png" type="logo/png">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Google</title>
 </head>
 <body>
     <!-- Nav-->
-    <div class="header">
+    <div class="nav">
         <div>
             <a href="image.html"> Image Search</a>
             <a href="advanced.html">Advanced Search</a>
         </div>
     </div>
-    <img class="logo" src="logo.png" alt="Google logo">
-    <form action="https://google.com/search">
-        <input class="bar" type="text" name="q">
-        <input class="button" type="submit" value="Google Search">
-        <input class="button" type="submit" value="I'm Feeling lucky">
-    </form>
+    <div class="search">
+        <img src="logo.png" alt="Google logo" />
+        <form action="https://google.com/search">
+            <div class="input-icons">
+                <i class="fa fa-search icon"></i>
+                <input class="bar" type="text" name="q">
+                
+            </div>
+            
+            <input class="button" type="submit" value="Google Search">
+            <input class="button" type="submit" value="I'm Feeling lucky">
+        </form>
+    </div>
 </body>
 </html>
 
