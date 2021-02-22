@@ -69,7 +69,7 @@ input:focus{
     text-align
     
 }
-.bar:hover {
+.bar:hover{
     transition: 0.5s;
     box-shadow: 3px 3px rgba(131, 134, 134, 0.856);   
 }
@@ -172,6 +172,11 @@ input:focus{
     }
     .button{
         margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 280px){
+    .bar{
+        width: 100px;
     }
 }
 
