@@ -21,7 +21,7 @@ input:focus{
     color: black;
     text-decoration: none;
     padding: 8px;
-    font-size: 12px;
+    font-size: 13px;
 }
 .nav a:hover{
     text-decoration: underline;
@@ -39,7 +39,7 @@ input:focus{
     margin-bottom: 25px;
 }
 .bar{
-    display: flex;
+    display: sticky;
     outline: none;
     flex-direction: column;
     justify-content: left;
@@ -48,7 +48,7 @@ input:focus{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px ;
-    border: 1px solid #afafaf;
+    border: 1px solid #afafaf9f;
     width: 550px;
     height: 20px;
     padding-left: 65px;
@@ -67,7 +67,7 @@ input:focus{
 }
 .input-icons i {
     position:absolute;
-    margin-left: -50%;
+    margin-left: -0%;
     
 }
 .input-icons{
@@ -83,9 +83,53 @@ input:focus{
    
 } 
 .button{
+    display: inline-block;
     border: none;
-    width: 175px;
+    width: 125px;
     color: black;
-    background-color: rgba(214, 212, 212, 0.411);
+    background-color: rgba(214, 212, 212, 0.24);
     border-radius: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.button:hover{
+    border: 1px solid rgba(128, 128, 128, 0.705);
+}
+
+/* Queries */
+/*small phones to small tablets : 481 to 767 px*/
+
+
+
+@media only screen and (max-width: 740px){
+    .search{
+        width: 50%;
+       
+    }
+    .bar{
+      padding-right: 200px;
+      width: 25%;
+    }
+    .input-icons i {
+        position:absolute;
+        margin-left: 0%;
+        
+    }
+}
+@media only screen and (max-width:1050px){
+    .search{
+        width: width%;
+       
+    }
+    .bar{
+      padding-right: 200px;
+      width: 35%;
+    }
+    .input-icons i {
+        position:absolute;
+        margin-left: 0%;
+        
+    }
+}
 }
