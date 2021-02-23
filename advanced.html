@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="advanced.css">
+    <link rel="icon" href="googleLogo.png" type="logo/png">
     <title>Google Advance Search</title>
 </head>
 <body>
@@ -19,17 +20,39 @@
     <div class="bar"></div>
        <div class="advanced-search-container">
         <form action="https://www.google.com/search" id="s1zaZb" method="GET" name="f">
-            <label class="header1">Find pages with...</label>
+            <h2 class="header1">Find pages with...</h2>
             <div class="whitespace"></div>
             <label class='header2'>To do this in the search box.</label>
             <div class="form-group">
-                <label>All these words:</label>
+                <label class="initial">all these words:</label>
                 <input class="inputbar" type="text" name="as_q">
                 <div class="clarification">
                     Type the important words: tri-colour rat terrier
                 </div>
             </div>
+            <div class="form-group">
+                <label class="initial">this exact word or phrase:</label>
+                <input class="inputbar" type="text" name="as_q">
+                <div class="clarification">
+                    Put exact words in quotes: "rat terrier"
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="initial">any of these words:</label>
+                <input class="inputbar" type="text" name="as_q">
+                <div class="clarification">
+                    Type OR between all the words you want: miniature OR standard
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="initial">none of these words:</label>
+                <input class="inputbar" type="text" name="as_q">
+                <div class="clarification">
+                    Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                </div>
+            </div>
         </form>
+
        </div>
     
     

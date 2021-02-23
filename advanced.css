@@ -57,7 +57,6 @@ h3{
 .advanced-search-container label {
     display: inline-block;
     position:relative;
-    
     font-size: 15px;
 }
 .whitespace {
@@ -67,7 +66,7 @@ h3{
   }
 .header1{
     min-width: 167px;
-    font-size: 16px;
+    font-size: px;
     min-height: 42px;
     font-weight: 500;
     color: #333
@@ -88,10 +87,18 @@ h3{
     padding: 1px 8px;
 }
 
+
 .clarification{
     display: inline-block;
     text-align: right;
     font-size: 11px;
     width: fit-content;
     margin-left: 10px;
+}
+.form-group{
+    margin-top: 10px;
+}
+.form-group label{
+    width: 10%;
+    font-size: 12px;
 }
