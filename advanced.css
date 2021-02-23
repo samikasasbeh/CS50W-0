@@ -8,15 +8,7 @@ body{
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
-input{
 
-    font-size: 16px;
-    width: 300px;
-    padding: 13px 0;
-}
-input:focus{
-    outline: none;
-}
 h1{
     font-weight: normal;
     
@@ -71,7 +63,7 @@ h3{
 .whitespace {
     display: inline-block;
     position: sticky;
-    width: 45%;
+    width: 40%;
   }
 .header1{
     min-width: 167px;
@@ -85,4 +77,21 @@ h3{
     font-weight: 700;
     color: #777;
 
+}
+.inputbar {
+    height: 25px;
+    margin-left: 50px ;
+    width: 38%;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 1px 8px;
+}
+
+.clarification{
+    display: inline-block;
+    text-align: right;
+    font-size: 11px;
+    width: fit-content;
+    margin-left: 10px;
 }
